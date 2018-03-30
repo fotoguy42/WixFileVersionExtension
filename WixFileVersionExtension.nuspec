@@ -14,7 +14,4 @@
     <file src="bin\$configuration$\Microsoft.Deployment.WindowsInstaller.dll" target="lib" />
     <file src="bin\$configuration$\WixFileVersionExtension.dll" target="lib" />
   </files>
-  <references>
-    <reference file="WixFileVersionExtension.dll" />
-</references>
 </package>
