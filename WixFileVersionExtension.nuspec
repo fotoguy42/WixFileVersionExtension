@@ -3,13 +3,18 @@
   <metadata>
     <id>WixFileVersionExtension</id>
     <version>$version$</version>
-    <authors>Chris Kaczor</authors>
+    <authors>Chris Kaczor, Todd Kneib</authors>
     <description>A WiX extension to read values from FileVersionInfo for a file on disk.</description>
     <projectUrl>https://github.com/ckaczor/WixFileVersionExtension</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/ckaczor/WixFileVersionExtension/master/LICENSE.md</licenseUrl>
+	<releaseNotes>Added ability to get ProductVersion (and other properties) from msi files</releaseNotes>
     <tags>wix</tags>
   </metadata>
   <files>
+    <file src="bin\$configuration$\Microsoft.Deployment.WindowsInstaller.dll" target="lib" />
     <file src="bin\$configuration$\WixFileVersionExtension.dll" target="lib" />
   </files>
+  <references>
+    <reference file="WixFileVersionExtension.dll" />
+</references>
 </package>

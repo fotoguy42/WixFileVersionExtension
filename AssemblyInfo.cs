@@ -10,7 +10,7 @@ using Microsoft.Tools.WindowsInstallerXml;
 [assembly: AssemblyCopyright("Copyright © Chris Kaczor 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
 
 [assembly: AssemblyDefaultWixExtension(typeof(WixFileVersionExtension.WixFileVersionExtension))]

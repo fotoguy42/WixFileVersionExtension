@@ -60,9 +60,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Deployment.WindowsInstaller, Version=3.0.0.0, Culture=neutral, PublicKeyToken=ce35f76fcda82bad, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(WiX)bin\Microsoft.Deployment.WindowsInstaller.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="wix">
-      <HintPath>C:\Program Files (x86)\WiX Toolset v3.11\bin\wix.dll</HintPath>
+      <HintPath>$(WiX)bin\wix.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

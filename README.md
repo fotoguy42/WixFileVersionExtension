@@ -12,6 +12,7 @@ When using the NuGet package the reference doesn't get added automatically and V
 ## Authors
 
 * **Chris Kaczor** - *Initial work* - https://github.com/ckaczor - https://chriskaczor.com
+* **Todd Kneib** - *Added getting MSI Properties* - https://github.com/fotoguy42
 
 ## License
 
